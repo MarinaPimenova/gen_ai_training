@@ -1,0 +1,32 @@
+#
+server:
+  servlet:
+    context-path: /
+    session:
+      timeout: 3600 # in seconds, so 60 min  # If a duration suffix is not specified, seconds will be used.
+  compression:
+    min-response-size: 1024
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+    enabled: true
+  port: 9092
+
+info:
+  app:
+    name: gen_ai_training
+    version: '@project.version@'
+
+logging:
+  level:
+    com.epam.training.gen.ai: debug
+    org.springframework: info
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
+
+client:
+  openai-key: { DIAL_KEY }
+  openai-endpoint: { OPEN_AI_ENDPOINT }
+
+

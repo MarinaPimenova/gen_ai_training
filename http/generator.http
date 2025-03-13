@@ -1,0 +1,13 @@
+### Send POST request with json body
+POST http://localhost:9092/v1/generator
+Content-Type: application/json
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "provide concise description of Semantic Kernel SDK"
+    }
+  ]
+}
+###

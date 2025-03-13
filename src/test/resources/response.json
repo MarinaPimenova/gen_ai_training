@@ -1,0 +1,33 @@
+{
+  "id": "chatcmpl-6ccc9918-ca85-4080-933e-65b9d6d929c5",
+  "object": "chat.completion",
+  "created": 1741908878,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "custom_content": {
+          "attachments": [
+            {
+              "title": "Revised prompt",
+              "data": "Design an info graphic that demonstrates the structure and functionality of a hypothetical software development kit titled 'Semantic Kernel SDK'. This SDK should be visualized as an abstract framework that helps in managing complex software, aids in interpreting and analyzing multiple layers of code and interfaces effectively amongst varying components. Include graphical elements such as flowcharts, diagrams, and other visual aids to effectively communicate how the Semantic Kernel SDK operates, connecting various software components, interpreting languages, and managing file systems."
+            },
+            {
+              "title": "Image",
+              "type": "image/png",
+              "url": "files/En1XA5eVDVaPAUGDuKqFWcxJ9bwpBM3sDBcLRbMPzAvhsT6g7H4SzWGj4HBUN9xorc7qSev96W7eNBGJrZjHpkb/appdata/dall-e-3/images/5b23c21cdc537351ee5dd7cb414fe19201a71d12b04973e5a2dc1405d42c54df.png"
+            }
+          ]
+        }
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 1,
+    "total_tokens": 1
+  }
+}
