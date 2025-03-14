@@ -28,16 +28,6 @@ public class GeneratorResponse {
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    public static class Attachment {
-        String title;
-        String data;
-    }
-
-    @NoArgsConstructor
-    @AllArgsConstructor
-    @Data
-    @JsonIgnoreProperties(ignoreUnknown = true)
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     public static class CustomContent {
         List<Attachment> attachments;
     }

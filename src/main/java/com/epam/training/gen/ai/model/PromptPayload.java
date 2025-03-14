@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.List;
 
@@ -27,5 +28,20 @@ public class PromptPayload {
     public static class UserPrompt {
         String role;
         String content;
+
+        @Override
+        public String toString() {
+            return new ToStringBuilder(this)
+                    .append("role: ", role)
+                    .append("content: ", content)
+                    .toString();
+        }
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this)
+                .append("messages: ", String.join(", ", messages.toString()))
+                .toString();
     }
 }

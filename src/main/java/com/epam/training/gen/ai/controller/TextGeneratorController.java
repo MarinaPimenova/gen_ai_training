@@ -2,6 +2,7 @@ package com.epam.training.gen.ai.controller;
 
 import com.epam.training.gen.ai.model.GeneratorResponse;
 import com.epam.training.gen.ai.model.PromptPayload;
+import com.epam.training.gen.ai.model.TextDto;
 import com.epam.training.gen.ai.service.TextGeneratorService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -20,8 +21,8 @@ public class TextGeneratorController {
     private final TextGeneratorService textGeneratorService;
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<GeneratorResponse> getGeneratedText(@RequestBody PromptPayload prompt) {
-        log.info(String.format("Process prompt. Value: %s", prompt.getMessages().get(0).getContent()));
+    public ResponseEntity<TextDto> getGeneratedText(@RequestBody PromptPayload prompt) {
+        log.info(String.format("Process prompt. Value: %s", prompt.toString()));
         return ResponseEntity.ok(textGeneratorService.getGeneratedText(prompt));
     }
 }
