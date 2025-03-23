@@ -1,0 +1,57 @@
+### gpt-4-turbo  gtp-4o
+POST http://localhost:9092/v1/chat/messages
+Content-Type: application/json
+
+{
+  "model": "gpt-4-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Please provide a short and simple description of [KernelFunction] and a short and simple example of their usage in Semantic Kernel library",
+      "systemMessage": "You are a casual, helpful assistant.",
+      "configPayload": {
+        "schema": 1,
+        "description": "general",
+        "name": "Developer's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.5
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Please provide a short and simple description of [KernelFunction] and a short and simple example of their usage in Semantic Kernel library",
+      "systemMessage": "You are a smart developer. Provide examples in Java code.",
+      "configPayload": {
+        "schema": 2,
+        "description": "general",
+        "name": "User's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.9
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Please provide a short and simple description of [KernelFunction] and a short and simple example of their usage in Semantic Kernel library",
+      "systemMessage": "I want you to be concise. Please provide the structured answer.",
+      "configPayload": {
+        "schema": 1,
+        "description": "general",
+        "name": "Developer's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.3
+        }
+      }
+    }
+  ]
+}
+
+###
+###
