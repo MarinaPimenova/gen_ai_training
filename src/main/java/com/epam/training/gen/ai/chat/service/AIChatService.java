@@ -7,10 +7,8 @@ import com.epam.training.gen.ai.chat.model.MessagePayload;
 import com.epam.training.gen.ai.chat.model.PromptConfigPayload;
 import com.epam.training.gen.ai.chat.model.ReplayResponse;
 import com.epam.training.gen.ai.chat.plugin.TimePlugin;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.microsoft.semantickernel.Kernel;
 import com.microsoft.semantickernel.aiservices.openai.chatcompletion.OpenAIChatCompletion;
-import com.microsoft.semantickernel.implementation.EmbeddedResourceLoader;
 import com.microsoft.semantickernel.orchestration.InvocationContext;
 import com.microsoft.semantickernel.orchestration.InvocationReturnMode;
 import com.microsoft.semantickernel.orchestration.PromptExecutionSettings;
@@ -21,19 +19,12 @@ import com.microsoft.semantickernel.semanticfunctions.KernelFunctionArguments;
 import com.microsoft.semantickernel.semanticfunctions.PromptTemplateConfig;
 import com.microsoft.semantickernel.semanticfunctions.PromptTemplateFactory;
 import com.microsoft.semantickernel.services.ServiceNotFoundException;
-import com.microsoft.semantickernel.services.chatcompletion.AuthorRole;
 import com.microsoft.semantickernel.services.chatcompletion.ChatCompletionService;
 import com.microsoft.semantickernel.services.chatcompletion.ChatHistory;
 import com.microsoft.semantickernel.services.chatcompletion.ChatMessageContent;
-import com.microsoft.semantickernel.services.chatcompletion.message.ChatMessageContentType;
-import com.microsoft.semantickernel.services.chatcompletion.message.ChatMessageTextContent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ResourceUtils;
-
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -193,20 +184,6 @@ public class AIChatService {
                 .build();
     }
 
-
-    private AuthorRole verifyRole(String role) {
-        //     SYSTEM("system"),
-        //    ASSISTANT("assistant"),
-        //    USER("user"),
-        //    TOOL("tool");
-        try {
-            return AuthorRole.valueOf(role);
-        } catch (IllegalArgumentException ex) {
-            log.error(ex.getMessage());
-            return AuthorRole.USER;
-        }
-    }
-
     private ChatCompletionService getCompletionService(String modelId) {
         return OpenAIChatCompletion.builder()
                 .withOpenAIAsyncClient(openAIAsyncClient)
@@ -217,7 +194,6 @@ public class AIChatService {
     private KernelFunctionArguments getArguments() {
         return KernelFunctionArguments
                 .builder()
-                //.withVariable("selectedText", selectedText)
                 .withVariable("startTime", DateTimeFormatter.ofPattern("hh:mm:ss a zz").format(
                         ZonedDateTime.of(2000, 1, 1, 1, 1, 1, 1, ZoneId.systemDefault())))
                 .withVariable("userMessage", "extract locations as a bullet point list")

@@ -1,6 +1,5 @@
 package com.epam.training.gen.ai.controller;
 
-import com.epam.training.gen.ai.model.GeneratorResponse;
 import com.epam.training.gen.ai.model.PromptPayload;
 import com.epam.training.gen.ai.model.TextDto;
 import com.epam.training.gen.ai.service.TextGeneratorService;
