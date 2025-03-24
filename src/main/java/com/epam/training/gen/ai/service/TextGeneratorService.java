@@ -1,6 +1,6 @@
 package com.epam.training.gen.ai.service;
 
-import com.epam.training.gen.ai.config.ClientOpenAiConfig;
+import com.epam.training.gen.ai.config.OpenAiClientConfig;
 import com.epam.training.gen.ai.model.ErrorResponse;
 import com.epam.training.gen.ai.model.GeneratorResponse;
 import com.epam.training.gen.ai.model.PromptPayload;
@@ -18,10 +18,10 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class TextGeneratorService {
     private final OpenAiRestClient openAiRestClient;
-    private final ClientOpenAiConfig clientOpenAiConfig;
+    private final OpenAiClientConfig openAiClientConfig;
 
     public TextDto getGeneratedText(PromptPayload payload) {
-        String url = clientOpenAiConfig.getOpenaiEndpoint();
+        String url = openAiClientConfig.getOpenaiEndpoint();
         ResponseEntity<?> response = null;
         try {
             response = openAiRestClient.executeRequest(url, openAiRestClient.getHttpHeaders(), Optional.of(payload),

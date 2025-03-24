@@ -2,7 +2,6 @@ package com.epam.training.gen.ai.service;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
@@ -20,11 +19,11 @@ import java.util.Optional;
 @Component
 @Slf4j
 public class IntegrationRestClient {
-    private final ObjectMapper mapper = new ObjectMapper()
-            .registerModule(new JavaTimeModule());
+    private final ObjectMapper objectMapper;
     private final RestTemplate restTemplate;
 
-    public IntegrationRestClient(RestTemplateBuilder restTemplateBuilder) {
+    public IntegrationRestClient(ObjectMapper objectMapper, RestTemplateBuilder restTemplateBuilder) {
+        this.objectMapper = objectMapper;
         MappingJackson2HttpMessageConverter httpMessageConverter = new MappingJackson2HttpMessageConverter();
         httpMessageConverter.getObjectMapper().setSerializationInclusion(JsonInclude.Include.NON_NULL);
 
@@ -64,14 +63,14 @@ public class IntegrationRestClient {
                 return new ResponseEntity<>("", HttpStatus.valueOf(statusCode));
             }
             try {
-                T response = mapper.readValue(responseJSON, targetType);
+                T response = objectMapper.readValue(responseJSON, targetType);
                 return ResponseEntity.ok(response);
             } catch (Exception ex) {
                 return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
             }
         }
         try {
-            E errorResponse = mapper.readValue(responseJSON, errorTargetType);
+            E errorResponse = objectMapper.readValue(responseJSON, errorTargetType);
             return new ResponseEntity<>(errorResponse, HttpStatus.valueOf(statusCode));
         } catch (Exception ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);

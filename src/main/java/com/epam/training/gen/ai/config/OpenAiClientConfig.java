@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ClientOpenAiConfig {
+public class OpenAiClientConfig {
     private String openaiKey;
     private String openaiEndpoint;
 }
