@@ -1,0 +1,17 @@
+### Mixtral-8x7B-Instruct-v0.1
+POST https://ai-proxy.lab.epam.com/openai/deployments/dall-e-3/chat/completions?api-version=2023-12-01-preview
+Accept: application/json
+Api-Key: API_KEY
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "provide concise description of Semantic Kernel SDK"
+    }
+  ]
+}
+###
+GET https://ai-proxy.lab.epam.com/v1/ + returned image url
+
+###

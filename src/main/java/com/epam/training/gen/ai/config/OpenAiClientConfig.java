@@ -14,4 +14,5 @@ import org.springframework.stereotype.Component;
 public class OpenAiClientConfig {
     private String openaiKey;
     private String openaiEndpoint;
+    private String openaiDeploymentName;
 }

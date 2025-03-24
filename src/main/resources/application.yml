@@ -29,4 +29,6 @@ client:
   openai-key: { DIAL_KEY }
   openai-endpoint: { OPEN_AI_ENDPOINT }
   chat-completion-endpoint: {COMPLETIONS}
+  openai-deployment-name: { OPEN_AI_DEPLOYMENT_NAME }
+
 

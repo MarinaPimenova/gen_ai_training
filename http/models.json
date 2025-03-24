@@ -1,0 +1,4176 @@
+{
+  "data": [
+    {
+      "id": "dall-e-3",
+      "model": "dall-e-3",
+      "display_name": "OpenAI DALL-E 3",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "DALL-E is a machine-learning model developed by OpenAI. It is designed to produce images from language descriptions, a process known as text-to-image descriptions or prompts.\n\nThe system can generate realistic images just from a description of the scene. DALL-E is a neural network algorithm that creates accurate pictures from short phrases provided by the user. It comprehends language through textual descriptions and from “learning” information provided in its datasets by users and developers.",
+      "reference": "dall-e-3",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": true,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0",
+        "completion": "0.04"
+      }
+    },
+    {
+      "id": "gpt-35-turbo-0125",
+      "model": "gpt-35-turbo-0125",
+      "display_name": "OpenAI GPT-3.5 Turbo (Legacy)",
+      "display_version": "0125",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "GPT-3.5 is an advanced language model developed by OpenAI, built upon its predecessor, GPT-3.\n\nIt encompasses enhanced capabilities allowing for more nuanced and context-aware text generation. With an architecture based on deep learning and transformers, GPT-3.5 can understand and generate human-like text across diverse topics, responding to prompts with greater accuracy and reduced biases compared to earlier versions. This model serves a wide range of applications from content creation and summarization to language translation and chatbots.",
+      "reference": "gpt-35-turbo-0125",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 16385
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000005",
+        "completion": "0.0000015"
+      }
+    },
+    {
+      "id": "gpt-35-turbo-1106",
+      "model": "gpt-35-turbo-1106",
+      "display_name": "OpenAI GPT-3.5 Turbo (Legacy)",
+      "display_version": "1106",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "GPT-3.5 is an advanced language model developed by OpenAI, built upon its predecessor, GPT-3.\n\nIt encompasses enhanced capabilities allowing for more nuanced and context-aware text generation. With an architecture based on deep learning and transformers, GPT-3.5 can understand and generate human-like text across diverse topics, responding to prompts with greater accuracy and reduced biases compared to earlier versions. This model serves a wide range of applications from content creation and summarization to language translation and chatbots.",
+      "reference": "gpt-35-turbo-1106",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 16385
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000001",
+        "completion": "0.000002"
+      }
+    },
+    {
+      "id": "gpt-35-turbo",
+      "model": "gpt-35-turbo",
+      "display_name": "OpenAI GPT-3.5 Turbo (Legacy)",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "GPT-3.5 is an advanced language model developed by OpenAI, built upon its predecessor, GPT-3.\n\nIt encompasses enhanced capabilities allowing for more nuanced and context-aware text generation. With an architecture based on deep learning and transformers, GPT-3.5 can understand and generate human-like text across diverse topics, responding to prompts with greater accuracy and reduced biases compared to earlier versions. This model serves a wide range of applications from content creation and summarization to language translation and chatbots.",
+      "reference": "gpt-35-turbo",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 16385
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000005",
+        "completion": "0.0000015"
+      }
+    },
+    {
+      "id": "gpt-4-0613",
+      "model": "gpt-4-0613",
+      "display_name": "OpenAI GPT-4 (Legacy)",
+      "display_version": "0613",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 is the AI language model developed by OpenAI.\n\nIt has several new capabilities compared to its predecessors. One of the most significant differences is that GPT-4 is multimodal, meaning it can process both images and text, whereas previous versions like GPT-3.5 could only process text. This allows GPT-4 to analyze the contents of an image and connect that information with a written question. It is also generally better at creative tasks and problem-solving.",
+      "reference": "gpt-4-0613",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 8192
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00003",
+        "completion": "0.00006"
+      }
+    },
+    {
+      "id": "gpt-4-32k-0314",
+      "model": "gpt-4-32k-0314",
+      "display_name": "OpenAI GPT-4 (Legacy)",
+      "display_version": "32K 0314",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 is the next-generation AI language model developed by OpenAI.\n\nIt has several new capabilities compared to its predecessors. One of the most significant differences is that GPT-4 is multimodal, meaning it can process both images and text, whereas previous versions like GPT-3.5 could only process text. This allows GPT-4 to analyze the contents of an image and connect that information with a written question. It is also generally better at creative tasks and problem-solving.",
+      "reference": "gpt-4-32k-0314",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 32768
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00006",
+        "completion": "0.00012"
+      }
+    },
+    {
+      "id": "gpt-4-32k-0613",
+      "model": "gpt-4-32k-0613",
+      "display_name": "OpenAI GPT-4 (Legacy)",
+      "display_version": "32K 0613",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 is the next-generation AI language model developed by OpenAI.\n\nIt has several new capabilities compared to its predecessors. One of the most significant differences is that GPT-4 is multimodal, meaning it can process both images and text, whereas previous versions like GPT-3.5 could only process text. This allows GPT-4 to analyze the contents of an image and connect that information with a written question. It is also generally better at creative tasks and problem-solving.",
+      "reference": "gpt-4-32k-0613",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 32768
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00006",
+        "completion": "0.00012"
+      }
+    },
+    {
+      "id": "gpt-4-32k",
+      "model": "gpt-4-32k",
+      "display_name": "OpenAI GPT-4 (Legacy)",
+      "display_version": "32K Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 is the next-generation AI language model developed by OpenAI.\n\nIt has several new capabilities compared to its predecessors. One of the most significant differences is that GPT-4 is multimodal, meaning it can process both images and text, whereas previous versions like GPT-3.5 could only process text. This allows GPT-4 to analyze the contents of an image and connect that information with a written question. It is also generally better at creative tasks and problem-solving.",
+      "reference": "gpt-4-32k",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 32768
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00006",
+        "completion": "0.00012"
+      }
+    },
+    {
+      "id": "gpt-4",
+      "model": "gpt-4",
+      "display_name": "OpenAI GPT-4 Latest",
+      "display_version": "GPT-4o 2024-11-20",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4o is a multimodal generative pre-trained transformer developed by OpenAI and released in November 2024.\n\nThis latest version features a context window of 128K tokens and supports generating up to 16.4K tokens per request. It is designed to provide more natural, engaging, and tailored writing, improving relevance and readability. Additionally, GPT-4o excels in handling complex queries with minimal resources, offering deeper insights and more thorough responses when working with uploaded files.",
+      "reference": "gpt-4",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {
+        "max_tokens": 8000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions",
+        "Structured Output"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_prompt_tokens": 64000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      }
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "model": "gpt-4-turbo-2024-04-09",
+      "display_name": "OpenAI GPT-4 Turbo (Legacy)",
+      "display_version": "2024-04-09",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 Turbo is an advanced version of the GPT-4 language model developed by OpenAI.\n\nIt was released as a major refinement of the existing model, with improvements in efficiency and speed [1]. GPT-4 Turbo introduced several new features, including faster responses, support for longer inputs up to 128K tokens in length, and improved knowledge of recent events [2]. It also has a larger context window compared to its predecessor, which allows it to analyze and remember more information",
+      "reference": "gpt-4-turbo-2024-04-09",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00001",
+        "completion": "0.00003"
+      }
+    },
+    {
+      "id": "gpt-4-turbo",
+      "model": "gpt-4-turbo",
+      "display_name": "OpenAI GPT-4 Turbo (Legacy)",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4 Turbo is an advanced version of the GPT-4 language model developed by OpenAI.\n\nIt was released as a major refinement of the existing model, with improvements in efficiency and speed [1]. GPT-4 Turbo introduced several new features, including faster responses, support for longer inputs up to 128K tokens in length, and improved knowledge of recent events [2]. It also has a larger context window compared to its predecessor, which allows it to analyze and remember more information",
+      "reference": "gpt-4-turbo",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00001",
+        "completion": "0.00003"
+      }
+    },
+    {
+      "id": "gpt-4o-2024-05-13",
+      "model": "gpt-4o-2024-05-13",
+      "display_name": "OpenAI GPT-4o",
+      "display_version": "2024-05-13",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4o is a multimodal generative pre-trained transformer developed by OpenAI and released in May 2024.\n\nIt is OpenAI new flagship model that integrates text, vision, and audio capabilities, setting a new standard for generative and conversational AI experiences. It is engineered for speed and efficiency, with an advanced ability to handle complex queries with minimal resources.",
+      "reference": "gpt-4o-2024-05-13",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000005",
+        "completion": "0.000015"
+      }
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "model": "gpt-4o-2024-08-06",
+      "display_name": "OpenAI GPT-4o",
+      "display_version": "2024-08-06",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4o is a multimodal generative pre-trained transformer developed by OpenAI and released in May 2024.\n\nIt is OpenAI new flagship model that integrates text, vision, and audio capabilities, setting a new standard for generative and conversational AI experiences. It is engineered for speed and efficiency, with an advanced ability to handle complex queries with minimal resources.",
+      "reference": "gpt-4o-2024-08-06",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions",
+        "Structured Output"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000275",
+        "completion": "0.000011"
+      }
+    },
+    {
+      "id": "gpt-4o-2024-11-20",
+      "model": "gpt-4o-2024-11-20",
+      "display_name": "OpenAI GPT-4o",
+      "display_version": "2024-11-20",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4o is a multimodal generative pre-trained transformer developed by OpenAI and released in November 2024.\n\nThis latest version features a context window of 128K tokens and supports generating up to 16.4K tokens per request. It is designed to provide more natural, engaging, and tailored writing, improving relevance and readability. Additionally, GPT-4o excels in handling complex queries with minimal resources, offering deeper insights and more thorough responses when working with uploaded files.",
+      "reference": "gpt-4o-2024-11-20",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions",
+        "Structured Output"
+      ],
+      "max_retry_attempts": 20,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      }
+    },
+    {
+      "id": "gpt-4o",
+      "model": "gpt-4o",
+      "display_name": "OpenAI GPT-4o",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "GPT-4o is a multimodal generative pre-trained transformer developed by OpenAI and released in November 2024.\n\nThis latest version features a context window of 128K tokens and supports generating up to 16.4K tokens per request. It is designed to provide more natural, engaging, and tailored writing, improving relevance and readability. Additionally, GPT-4o excels in handling complex queries with minimal resources, offering deeper insights and more thorough responses when working with uploaded files.",
+      "reference": "gpt-4o",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions",
+        "Structured Output"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      }
+    },
+    {
+      "id": "gpt-4o-mini-2024-07-18",
+      "model": "gpt-4o-mini-2024-07-18",
+      "display_name": "OpenAI GPT-4o mini",
+      "display_version": "2024-07-18",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt4.svg",
+      "description": "The GPT-4o mini model is a smaller, faster, and cheaper version of the GPT-4o AI model developed by OpenAI.\n\nIt is designed to replace the GPT-3.5 Turbo model, which was the default for free ChatGPT users and the cheapest option for developers building applications on OpenAI technology",
+      "reference": "gpt-4o-mini-2024-07-18",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Azure",
+        "Functions",
+        "Structured Output"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000000165",
+        "completion": "0.00000066"
+      }
+    },
+    {
+      "id": "text-embedding-ada-002",
+      "model": "text-embedding-ada-002",
+      "reference": "text-embedding-ada-002",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": false,
+        "embeddings": true,
+        "fine_tune": false,
+        "inference": false
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000001"
+      }
+    },
+    {
+      "id": "text-embedding-3-small-1",
+      "model": "text-embedding-3-small-1",
+      "reference": "text-embedding-3-small-1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": false,
+        "embeddings": true,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 8192
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000002"
+      }
+    },
+    {
+      "id": "text-embedding-3-large-1",
+      "model": "text-embedding-3-large-1",
+      "reference": "text-embedding-3-large-1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": false,
+        "embeddings": true,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 8192
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000013"
+      }
+    },
+    {
+      "id": "amazon.titan-tg1-large",
+      "model": "amazon.titan-tg1-large",
+      "display_name": "Amazon Titan (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/awc.svg",
+      "description": "The amazon.titan-tg1-large is a model from Amazon Titan, a family of Foundation Models pretrained by AWS for various use cases.\n\nIt is suitable for text generation. Amazon Titan models are powerful, general-purpose models built to support a variety of use cases. They are pretrained by AWS on large datasets .",
+      "reference": "amazon.titan-tg1-large",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 8192
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000013",
+        "completion": "0.0000017"
+      }
+    },
+    {
+      "id": "anthropic.claude",
+      "model": "anthropic.claude",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "3 Sonnet",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3 Sonnet is a model that offers a combination of performance and speed for efficient, high-throughput tasks.\n\nIt sets new industry benchmarks for graduate-level reasoning, undergraduate-level knowledge, and coding proficiency. It shows marked improvement in grasping nuance, humor, and complex instructions, and is exceptional at writing high-quality content with a natural, relatable tone ",
+      "reference": "anthropic.claude",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000300",
+        "completion": "0.00001500"
+      }
+    },
+    {
+      "id": "anthropic.claude-instant-v1",
+      "model": "anthropic.claude-instant-v1",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "1.2 Instant",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude Instant 1.2 is an updated version of their AI model that generates text. It is designed to be faster, cheaper, and more accessible than its predecessor, Claude Instant 1.1.\n\nThe model incorporates the strengths of Anthropic's flagship model, Claude 2, and shows significant improvements in areas such as math, coding, reasoning, and safety. For instance, Claude Instant 1.2 scored 58.7% on a coding benchmark and 86.7% on a set of math questions, which are improvements over the scores of Claude Instant 1.1. The model is also capable of generating longer, more structured responses, following formatting instructions better, and showing improvements in quote extraction, multilingual capabilities, and question answering",
+      "reference": "anthropic.claude-instant-v1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {
+        "max_tokens": 100000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 100000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000163",
+        "completion": "0.00000551"
+      }
+    },
+    {
+      "id": "anthropic.claude-v2",
+      "model": "anthropic.claude-v2",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "2.0",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Claude 2 is a large language model-powered chatbot developed by Anthropic, an AI company.\n\nIt is an improvement on Anthropics previous AI model, Claude 1.3, particularly in terms of its ability to write code based on written instructions and the size of its “context window,” which means users can now input entire books and ask Claude 2 questions based on their content. These improvements suggest Claude 2 is now in the same league as GPT-3.5 and GPT-4, the models which power OpenAI’s ChatGPT. However, like OpenAI’s models, Claude 2 still exhibits stereotype bias and ‘hallucinates’ — in other words, it makes things up.",
+      "reference": "anthropic.claude-v2",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {
+        "max_tokens": 100000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 100000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000800",
+        "completion": "0.00002400"
+      }
+    },
+    {
+      "id": "anthropic.claude-v2-1",
+      "model": "anthropic.claude-v2-1",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "2.1",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic Claude 2.1 is an advanced version of the large language model-powered chatbot developed by Anthropic, an AI company.\n\nThis model is capable of recalling information very well across its 200,000 token context window, which is equivalent to around 500 pages of information. It excels at real-world retrieval tasks across longer contexts. However, it can be reluctant to answer questions based on an individual sentence in a document, especially if that sentence has been injected or is out of place. A minor prompting edit can remove this reluctance and result in excellent performance on these tasks. Claude 2.1 was trained using large amounts of feedback on long document tasks that users find valuable, like summarizing an S-1 length document. This data included real tasks performed on real documents, with Claude being trained to make fewer mistakes and to avoid expressing unsupported claims.",
+      "reference": "anthropic.claude-v2-1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000800",
+        "completion": "0.00002400"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-opus",
+      "model": "anthropic.claude-v3-opus",
+      "display_name": "Anthropic Claude 3 Opus",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3 Opus is part of the Claude 3 model family, which is known for setting new industry benchmarks across a wide range of cognitive tasks.\n\nThe Claude 3 family includes three models: Haiku, Sonnet, and Opus, with Opus being the highest-performing model. It is capable of handling complex analysis, longer tasks with many steps, and higher-order math and coding tasks. The default version of Claude 3, Opus, has a context window of 200,000 tokens, but this is being expanded to 1 million for specific use cases",
+      "reference": "anthropic.claude-v3-opus",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00001500",
+        "completion": "0.00007500"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-sonnet",
+      "model": "anthropic.claude-v3-sonnet",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "3 Sonnet",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude Sonnet is a model that offers a combination of performance and speed for efficient, high-throughput tasks.\n\nIt sets new industry benchmarks for graduate-level reasoning, undergraduate-level knowledge, and coding proficiency. It shows marked improvement in grasping nuance, humor, and complex instructions, and is exceptional at writing high-quality content with a natural, relatable tone ",
+      "reference": "anthropic.claude-v3-sonnet",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000300",
+        "completion": "0.00001500"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-5-sonnet-v1",
+      "model": "anthropic.claude-v3-5-sonnet-v1",
+      "display_name": "Anthropic Claude 3.5 Sonnet",
+      "display_version": "V1",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3.5 Sonnet is a significant advancement in the field of generative AI and large language models (LLMs).\n\nIt is known for its unprecedented intelligence, enhanced speed, and advanced capabilities across various domains. The model sets a new standard for what AI can achieve, with sophisticated reasoning and coding abilities, a commitment to safety, and a focus on user-driven development",
+      "reference": "anthropic.claude-v3-5-sonnet-v1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS",
+        "Development"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000300",
+        "completion": "0.00001500"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-5-sonnet-v2",
+      "model": "anthropic.claude-v3-5-sonnet-v2",
+      "display_name": "Anthropic Claude 3.5 Sonnet",
+      "display_version": "V2",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3.5 Sonnet is a significant advancement in the field of generative AI and large language models (LLMs).\n\nIt is known for its unprecedented intelligence, enhanced speed, and advanced capabilities across various domains. The model sets a new standard for what AI can achieve, with sophisticated reasoning and coding abilities, a commitment to safety, and a focus on user-driven development",
+      "reference": "anthropic.claude-v3-5-sonnet-v2",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS",
+        "Development"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000300",
+        "completion": "0.00001500"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-5-sonnet",
+      "model": "anthropic.claude-v3-5-sonnet",
+      "display_name": "Anthropic Claude 3.5 Sonnet",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3.5 Sonnet is a significant advancement in the field of generative AI and large language models (LLMs).\n\nIt is known for its unprecedented intelligence, enhanced speed, and advanced capabilities across various domains. The model sets a new standard for what AI can achieve, with sophisticated reasoning and coding abilities, a commitment to safety, and a focus on user-driven development",
+      "reference": "anthropic.claude-v3-5-sonnet",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS",
+        "Development"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000300",
+        "completion": "0.00001500"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-5-haiku",
+      "model": "anthropic.claude-v3-5-haiku",
+      "display_name": "Anthropic Claude 3.5 Haiku",
+      "display_version": "20241022-v1:0",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "The new Claude 3.5 Haiku combines rapid response times with improved reasoning capabilities, making it ideal for tasks that require both speed and intelligence. Claude 3.5 Haiku improves on its predecessor and matches the performance of Claude 3 Opus (previously Claude’s largest model). Claude 3.5 Haiku can help with use cases such as fast and accurate code suggestions, highly interactive chatbots that need rapid response times for customer service, e-commerce solutions, and educational platforms.",
+      "reference": "anthropic.claude-v3-5-haiku",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Continue Supported",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000008",
+        "completion": "0.000004"
+      }
+    },
+    {
+      "id": "anthropic.claude-v3-haiku",
+      "model": "anthropic.claude-v3-haiku",
+      "display_name": "Anthropic Claude (Legacy)",
+      "display_version": "3 Haiku",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Anthropic's Claude 3 Haiku is a state-of-the-art large language model that is part of the Claude 3 foundation model family.\n\nIt is the fastest and most compact model in the family, designed for near-instant responsiveness and seamless generative artificial intelligence (AI) experiences that mimic human interactions. It can read a data-dense research paper with charts and graphs in less than three seconds. Claude 3 Haiku has image-to-text vision capabilities, can understand multiple languages besides English, and boasts increased steerability in a 200k context window",
+      "reference": "anthropic.claude-v3-haiku",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 200000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 200000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000025",
+        "completion": "0.00000125"
+      }
+    },
+    {
+      "id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "model": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "display_name": "Anthropic Claude 3.7 Sonnet",
+      "display_version": "20250219-v1:0",
+      "icon_url": "https://chat.lab.epam.com/themes/anthropic.svg",
+      "description": "Claude 3.7 Sonnet is Anthropic's most intelligent model to date and the first Claude model to offer extended thinking—the ability to solve complex problems with careful, step-by-step reasoning. Anthropic is the first AI lab to introduce a single model where users can balance speed and quality by choosing between standard thinking for near-instant responses or extended thinking or advanced reasoning. Claude 3.7 Sonnet is state-of-the-art for coding, and delivers advancements in computer use, agentic capabilities, complex reasoning, and content generation. With frontier performance and more control over speed, Claude 3.7 Sonnet is the ideal choice for powering AI agents, especially customer-facing agents, and complex AI workflows.",
+      "reference": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {
+        "max_tokens": 4000
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS",
+        "Development"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000003",
+        "completion": "0.000015"
+      }
+    },
+    {
+      "id": "amazon.nova-pro-v1",
+      "model": "amazon.nova-pro-v1",
+      "display_name": "Amazon Nova Pro",
+      "display_version": "V1",
+      "icon_url": "https://chat.lab.epam.com/themes/awc.svg",
+      "description": "Amazon Nova Pro is a highly capable multimodal model with the best combination of accuracy, speed, and cost for a wide range of tasks. The capabilities of Amazon Nova Pro, coupled with its industry-leading speed and cost efficiency, makes it a compelling model for almost any task, including Q&A, mathematical reasoning, software development, and AI agents that can execute multistep workflows. In addition to state-of-the-art accuracy on text and visual intelligence benchmarks, Amazon Nova Pro excels at instruction following and agentic workflows as measured by Comprehensive RAG Benchmark (CRAG), the Berkeley Function Calling Leaderboard, and Mind2Web. Current deployment supports only image and text file attachments.",
+      "reference": "amazon.nova-pro-v1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 300000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000008",
+        "completion": "0.0000032"
+      }
+    },
+    {
+      "id": "amazon.nova-lite-v1",
+      "model": "amazon.nova-lite-v1",
+      "display_name": "Amazon Nova Lite",
+      "display_version": "V1",
+      "icon_url": "https://chat.lab.epam.com/themes/awc.svg",
+      "description": "Amazon Nova Lite is a very low-cost multimodal model that is lightning. The accuracy of Amazon Nova Lite across a breadth of tasks, coupled with its lightning-fast speed, makes it suitable for a wide range of interactive and high-volume applications where cost is a key consideration. Current deployment supports only image and text file attachments.",
+      "reference": "amazon.nova-lite-v1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 300000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.00000006",
+        "completion": "0.00000024"
+      }
+    },
+    {
+      "id": "amazon.nova-micro-v1",
+      "model": "amazon.nova-micro-v1",
+      "display_name": "Amazon Nova Micro",
+      "display_version": "V1",
+      "icon_url": "https://chat.lab.epam.com/themes/awc.svg",
+      "description": "Amazon Nova Micro is a text-only model that delivers the lowest latency responses at very low cost. It is highly performant at language understanding, translation, reasoning, code completion, brainstorming, and mathematical problem-solving. With its generation speed of over 200 tokens per second, Amazon Nova Micro is ideal for applications that require fast responses.",
+      "reference": "amazon.nova-micro-v1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000000035",
+        "completion": "0.00000014"
+      }
+    },
+    {
+      "id": "stability.stable-diffusion-xl",
+      "model": "stability.stable-diffusion-xl",
+      "display_name": "StabilityAI Stable Diffusion XL (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/Stable-Diffusion.svg",
+      "description": "Stable Diffusion XL, also known as SDXL, is the next-generation open weights AI image synthesis model released by Stability AI.\n\nIt represents a significant advancement in image generation capabilities compared to previous versions of Stable Diffusion, offering higher-resolution imagery and more detailed outputs. It is an open-source diffusion model that is a significant upgrade to Stable Diffusion v2.1. The model focuses on being versatile for creating images in a wide variety of styles and allows people to fine-tune it easily according to their aesthetic preferences",
+      "reference": "stability.stable-diffusion-xl",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 77
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000",
+        "completion": "0.018"
+      }
+    },
+    {
+      "id": "stability.stable-image-core-v1:0",
+      "model": "stability.stable-image-core-v1:0",
+      "display_name": "StabilityAI Stable Image Core (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/Stable-Diffusion.svg",
+      "description": "Our primary service for text-to-image generation, Stable Image Core represents the best quality achievable at high speed.\n\nNo prompt engineering is required! Try asking for a style, a scene, or a character, and see what you get.",
+      "reference": "stability.stable-image-core-v1:0",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 350
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000",
+        "completion": "0.12"
+      }
+    },
+    {
+      "id": "stability.stable-image-ultra-v1:0",
+      "model": "stability.stable-image-ultra-v1:0",
+      "display_name": "StabilityAI Stable Image Ultra",
+      "icon_url": "https://chat.lab.epam.com/themes/Stable-Diffusion.svg",
+      "description": "Our most advanced text to image generation service, Stable Image Ultra creates the highest quality images with unprecedented prompt understanding.\n\nUltra excels in typography, complex compositions, dynamic lighting, vibrant hues, and overall cohesion and structure of an art piece. Made from the most advanced models, including Stable Diffusion 3.5, Ultra offers the best of the Stable Diffusion ecosystem",
+      "reference": "stability.stable-image-ultra-v1:0",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 350
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000",
+        "completion": "0.32"
+      }
+    },
+    {
+      "id": "stability.sd3-large-v1:0",
+      "model": "stability.sd3-large-v1:0",
+      "display_name": "StabilityAI Stable Diffusion 3 Large",
+      "icon_url": "https://chat.lab.epam.com/themes/Stable-Diffusion.svg",
+      "description": "At 8 billion parameters, with superior quality and prompt adherence, this base model is the most powerful in the Stable Diffusion family.\n\nThis model is ideal for professional use cases at 1 megapixel resolution",
+      "reference": "stability.sd3-large-v1:0",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "image/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "AWS"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 350
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000",
+        "completion": "0.14"
+      }
+    },
+    {
+      "id": "llama-3-70b-instruct-awq",
+      "model": "llama-3-70b-instruct-awq",
+      "display_name": "Meta Llama 3 70B AWQ (Legacy)",
+      "display_version": "70B-instruct-AWQ-4bit",
+      "icon_url": "https://chat.lab.epam.com/themes/Llama3.svg",
+      "description": "Legacy model. For the EPAM-hosted Llama model, please switch to Llama 3 Nemotron-70B-Instruct-HF-FP8-dynamic verison",
+      "reference": "llama-3-70b-instruct-awq",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "Mistral-7B-Instruct",
+      "model": "Mistral-7B-Instruct",
+      "display_name": "Mistral 7B Instruct (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/mistral_7.svg",
+      "description": "Legacy model. For the EPAM-hosted Mistral model, please switch to Mistral Nemo.",
+      "reference": "Mistral-7B-Instruct",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "Mixtral-8x7B-Instruct-v0.1",
+      "model": "Mixtral-8x7B-Instruct-v0.1",
+      "display_name": "Mistral Mixtral 8x7B (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/mistral_7.svg",
+      "description": "Legacy model. For the EPAM-hosted Mistral model, please switch to Mistral Nemo.",
+      "reference": "Mixtral-8x7B-Instruct-v0.1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "rlab-mistral-instruct",
+      "model": "rlab-mistral-instruct",
+      "display_name": "Mistral Small",
+      "display_version": "2501-FP8",
+      "icon_url": "https://chat.lab.epam.com/themes/mistral_7.svg",
+      "description": "Mistral Small 3 Instruct: a latency-optimized 24B-parameter model released under the Apache 2.0 license.",
+      "reference": "rlab-mistral-instruct",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "rlab-llama-large-Instruct",
+      "model": "rlab-llama-large-Instruct",
+      "display_name": "Meta Llama 3.1 70B Nemotron",
+      "display_version": "Nemotron-70B-Instruct-HF-FP8-dynamic",
+      "icon_url": "https://chat.lab.epam.com/themes/Llama3.svg",
+      "description": "This model is a quantized version of Llama-3.1-Nemotron-70B-Instruct. It was evaluated on a several tasks to assess the its quality in comparison to the unquatized model, including multiple-choice, math reasoning, and open-ended text generation.",
+      "reference": "rlab-llama-large-Instruct",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "DeepSeek-R1-Distill-Llama-70B-FP8",
+      "model": "DeepSeek-R1-Distill-Llama-70B-FP8",
+      "display_name": "DeepSeek R1-Distill Llama-70B",
+      "display_version": "Llama-70B-FP8",
+      "description": "DeepSeek-R1-Distill models are fine-tuned based on open-source models, using samples generated by DeepSeek-R1. DeepSeek R1 is an advanced AI reasoning model developed by the Chinese company DeepSeek, which has gained global attention for its performance and open-source approach. Released on January 20, 2025, it is the first publicly available model to rival OpenAI's o1 in reasoning tasks. Usage Recommendations: 1) Set the temperature within the range of 0.5-0.7. 2) Avoid adding a system prompt; all instructions should be contained within the user prompt.",
+      "reference": "DeepSeek-R1-Distill-Llama-70B-FP8",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted",
+        "Reasoning"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "DeepSeek-R1-Distill-Qwen-14B",
+      "model": "DeepSeek-R1-Distill-Qwen-14B",
+      "display_name": "DeepSeek R1-Distill Qwen-14B",
+      "display_version": "Qwen-14B",
+      "description": "DeepSeek-R1-Distill models are fine-tuned based on open-source models, using samples generated by DeepSeek-R1. DeepSeek R1 is an advanced AI reasoning model developed by the Chinese company DeepSeek, which has gained global attention for its performance and open-source approach. Released on January 20, 2025, it is the first publicly available model to rival OpenAI's o1 in reasoning tasks. Usage Recommendations: 1) Set the temperature within the range of 0.5-0.7. 2) Avoid adding a system prompt; all instructions should be contained within the user prompt.",
+      "reference": "DeepSeek-R1-Distill-Qwen-14B",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted",
+        "Reasoning"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "rlab-qwq-32b",
+      "model": "rlab-qwq-32b",
+      "display_name": "Qwen QwQ 32B",
+      "display_version": "2025-03-05",
+      "description": "Qwen QwQ is the 32B reasoning model of the Qwen series.",
+      "reference": "rlab-qwq-32b",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Self-Hosted",
+        "Reasoning"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "azure-ai-vision-embeddings",
+      "model": "azure-ai-vision-embeddings",
+      "reference": "azure-ai-vision-embeddings",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": false,
+        "embeddings": true,
+        "fine_tune": false,
+        "inference": false
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0009"
+      }
+    },
+    {
+      "id": "chat-bison",
+      "model": "chat-bison",
+      "display_name": "Google PaLM2 (Legacy)",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Chat-bison is a model code for a generative AI model used in chat applications. It is part of the Vertex AI offerings from Google Cloud.\n\nThe model is designed to generate responses in a chat session based on the most recent author message. The chat session history includes all the messages before the most recent message. The model is also capable of handling tasks such as code generation, text generation, text editing, problem solving, recommendations generation, information extraction, data extraction or generation, and AI agent tasks",
+      "reference": "chat-bison",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 32768,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "chat-bison@001",
+      "model": "chat-bison@001",
+      "display_name": "Google PaLM2 (Legacy)",
+      "display_version": "Bison@001",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Chat-bison is a model code for a generative AI model used in chat applications. It is part of the Vertex AI offerings from Google Cloud.\n\nThe model is designed to generate responses in a chat session based on the most recent author message. The chat session history includes all the messages before the most recent message. The model is also capable of handling tasks such as code generation, text generation, text editing, problem solving, recommendations generation, information extraction, data extraction or generation, and AI agent tasks",
+      "reference": "chat-bison@001",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 4096,
+        "max_completion_tokens": 1024
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "chat-bison-32k@002",
+      "model": "chat-bison-32k@002",
+      "display_name": "Google PaLM2 (Legacy)",
+      "display_version": "Bison-32k@002",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Chat-bison is a model code for a generative AI model used in chat applications. It is part of the Vertex AI offerings from Google Cloud.\n\nThe model is designed to generate responses in a chat session based on the most recent author message. The chat session history includes all the messages before the most recent message. The model is also capable of handling tasks such as code generation, text generation, text editing, problem solving, recommendations generation, information extraction, data extraction or generation, and AI agent tasks",
+      "reference": "chat-bison-32k@002",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 32768,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "codechat-bison",
+      "model": "codechat-bison",
+      "display_name": "Google PaLM2 Code (Legacy)",
+      "display_version": "Latest",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Codechat-bison is a code generation model developed by Google, part of their Codey suite of tools.\n\nIt's based on the PaLM 2 language model and is designed for generating and understanding code. The model supports various applications such as code completion, codechat, documentation generation, and more, to enhance productivity and software development efficiency.",
+      "reference": "codechat-bison",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 32768,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "codechat-bison@001",
+      "model": "codechat-bison@001",
+      "display_name": "Google PaLM2 Code (Legacy)",
+      "display_version": "Bison@001",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Codechat-bison is a code generation model developed by Google, part of their Codey suite of tools.\n\nIt's based on the PaLM 2 language model and is designed for generating and understanding code. The model supports various applications such as code completion, codechat, documentation generation, and more, to enhance productivity and software development efficiency.",
+      "reference": "codechat-bison@001",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 6144,
+        "max_completion_tokens": 1024
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "codechat-bison-32k@002",
+      "model": "codechat-bison-32k@002",
+      "display_name": "Google PaLM2 Code (Legacy)",
+      "display_version": "Bison-32k@002",
+      "icon_url": "https://chat.lab.epam.com/themes/palm2.svg",
+      "description": "Codechat-bison is a code generation model developed by Google, part of their Codey suite of tools.\n\nIt's based on the PaLM 2 language model and is designed for generating and understanding code. The model supports various applications such as code completion, codechat, documentation generation, and more, to enhance productivity and software development efficiency.",
+      "reference": "codechat-bison-32k@002",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 32768,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "gemini-pro",
+      "model": "gemini-pro",
+      "display_name": "Google Gemini 1.0 Pro (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini.svg",
+      "description": "Gemini 1.0 Pro is a version of Google's Gemini AI model. It is designed to power Google's Gemini assistant and is used in the paid AI chatbot service, Gemini Advanced.\n\nThis model can deliver fast response times and understand complex queries. Developers can customize Gemini Pro to specific contexts and use cases via a fine-tuning or grounding process. For example, it can be instructed to use data from third-party providers or source information from corporate datasets or Google Search instead of its wider knowledge bank. Gemini Pro can also be connected to external, third-party APIs to perform particular actions, like automating a back-office workflow. It can reason across 100,000 lines of code and provide helpful solutions, modifications, and explanations",
+      "reference": "gemini-pro",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 32000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "gemini-pro-vision",
+      "model": "gemini-pro-vision",
+      "display_name": "Google Gemini 1.0 Pro Vision (Legacy)",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.0 Pro Vision is a product of Google's Large Language Model (LLM) known as Gemini. It is a powerful model capable of dealing with multiple modalities of data such as image, video, sound, etc.\n\nIt is available in Bard through the MakerSuite UI and their Python Software Development Kit (SDK) [1]. Gemini Pro Vision is marketed as an all-purpose Vision model that can solve a wide range of tasks [2]. It can take multimodal inputs, including text and images, and can handle zero, one, and few-shot tasks",
+      "reference": "gemini-pro-vision",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 16000,
+        "max_completion_tokens": 2048
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.0000005"
+      }
+    },
+    {
+      "id": "gemini-1.5-pro-google-search",
+      "model": "gemini-1.5-pro-google-search",
+      "display_name": "Google Gemini 1.5 Pro",
+      "display_version": "v002, With Google Search Grounding",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Pro is a multimodal AI model developed by Google DeepMind. It is a follow-up release to the initial debut of Google's Gemini 1.0 and provides an upgrade over the 1.0 models with better performance and longer context length.\n\nThe model uses a multimodal mixture-of-experts (MoE) approach, which allows it to optimize the most relevant expert pathways in its neural network for results. It can handle a large context window of up to 1 million tokens, enabling it to reason and understand larger volumes of data than other models with lower token limits. Gemini 1.5 Pro can process text, images, audio, and video, and can be used for various tasks such as building conversational AI assistants, analyzing and generating code, and more",
+      "reference": "gemini-1.5-pro-google-search",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {
+        "tools": [
+          {
+            "type": "static_function",
+            "static_function": {
+              "name": "google_search",
+              "description": "Grounding with Google Search",
+              "configuration": {}
+            }
+          }
+        ]
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Continue Supported",
+        "Google Search Grounding",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 2048
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.0000025",
+        "completion": "0.0000075"
+      }
+    },
+    {
+      "id": "gemini-1.5-pro-preview-0409",
+      "model": "gemini-1.5-pro-preview-0409",
+      "display_name": "Google Gemini 1.5 Pro",
+      "display_version": "Preview-0409",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Pro is a multimodal AI model developed by Google DeepMind. It is a follow-up release to the initial debut of Google's Gemini 1.0 and provides an upgrade over the 1.0 models with better performance and longer context length.\n\nThe model uses a multimodal mixture-of-experts (MoE) approach, which allows it to optimize the most relevant expert pathways in its neural network for results. It can handle a large context window of up to 1 million tokens, enabling it to reason and understand larger volumes of data than other models with lower token limits. Gemini 1.5 Pro can process text, images, audio, and video, and can be used for various tasks such as building conversational AI assistants, analyzing and generating code, and more",
+      "reference": "gemini-1.5-pro-preview-0409",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000125",
+        "completion": "0.0000025"
+      }
+    },
+    {
+      "id": "gemini-1.5-pro-001",
+      "model": "gemini-1.5-pro-001",
+      "display_name": "Google Gemini 1.5 Pro",
+      "display_version": "001",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Pro is a multimodal AI model developed by Google DeepMind. It is a follow-up release to the initial debut of Google's Gemini 1.0 and provides an upgrade over the 1.0 models with better performance and longer context length.\n\nThe model uses a multimodal mixture-of-experts (MoE) approach, which allows it to optimize the most relevant expert pathways in its neural network for results. It can handle a large context window of up to 1 million tokens, enabling it to reason and understand larger volumes of data than other models with lower token limits. Gemini 1.5 Pro can process text, images, audio, and video, and can be used for various tasks such as building conversational AI assistants, analyzing and generating code, and more",
+      "reference": "gemini-1.5-pro-001",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000125",
+        "completion": "0.0000025"
+      }
+    },
+    {
+      "id": "gemini-1.5-pro-002",
+      "model": "gemini-1.5-pro-002",
+      "display_name": "Google Gemini 1.5 Pro",
+      "display_version": "002",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Pro is a multimodal AI model developed by Google DeepMind. It is a follow-up release to the initial debut of Google's Gemini 1.0 and provides an upgrade over the 1.0 models with better performance and longer context length.\n\nThe model uses a multimodal mixture-of-experts (MoE) approach, which allows it to optimize the most relevant expert pathways in its neural network for results. It can handle a large context window of up to 1 million tokens, enabling it to reason and understand larger volumes of data than other models with lower token limits. Gemini 1.5 Pro can process text, images, audio, and video, and can be used for various tasks such as building conversational AI assistants, analyzing and generating code, and more",
+      "reference": "gemini-1.5-pro-002",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000125",
+        "completion": "0.0000025"
+      }
+    },
+    {
+      "id": "gemini-1.5-flash-001",
+      "model": "gemini-1.5-flash-001",
+      "display_name": "Google Gemini 1.5 Flash",
+      "display_version": "001",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Flash is a fast and versatile multimodal model designed for scaling across diverse tasks.\n\nIt was purpose-built as the fastest, most cost-efficient model yet for high volume tasks, at scale, to address developers feedback asking for lower latency and cost. It has a higher rate limit of 1000 requests per minute (RPM) and there is no limit on the number of requests per day",
+      "reference": "gemini-1.5-flash-001",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000001875",
+        "completion": "0.000000075"
+      }
+    },
+    {
+      "id": "gemini-1.5-flash-002",
+      "model": "gemini-1.5-flash-002",
+      "display_name": "Google Gemini 1.5 Flash",
+      "display_version": "002",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "Gemini 1.5 Flash is a fast and versatile multimodal model designed for scaling across diverse tasks.\n\nIt was purpose-built as the fastest, most cost-efficient model yet for high volume tasks, at scale, to address developers feedback asking for lower latency and cost. It has a higher rate limit of 1000 requests per minute (RPM) and there is no limit on the number of requests per day",
+      "reference": "gemini-1.5-flash-002",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000001875",
+        "completion": "0.000000075"
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-thinking-exp-01-21",
+      "model": "gemini-2.0-flash-thinking-exp-01-21",
+      "display_name": "Google Gemini 2.0 Flash Thinking",
+      "display_version": "Experimental 01-21",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini.svg",
+      "description": "",
+      "reference": "gemini-2.0-flash-thinking-exp-01-21",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 2048
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-exp",
+      "model": "gemini-2.0-flash-exp",
+      "display_name": "Google Gemini 2.0 Flash",
+      "display_version": "Experimental",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "",
+      "reference": "gemini-2.0-flash-exp",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Continue Supported",
+        "Google Search Grounding",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 2048
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-exp-google-search",
+      "model": "gemini-2.0-flash-exp-google-search",
+      "display_name": "Google Gemini 2.0 Flash",
+      "display_version": "Experimental, With Google Search Grounding",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "",
+      "reference": "gemini-2.0-flash-exp-google-search",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {
+        "tools": [
+          {
+            "type": "static_function",
+            "static_function": {
+              "name": "google_search",
+              "description": "Grounding with Google Search",
+              "configuration": {}
+            }
+          }
+        ]
+      },
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Continue Supported",
+        "Google Search Grounding",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 2048
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
+      }
+    },
+    {
+      "id": "gemini-2.0-pro-exp-02-05",
+      "model": "gemini-2.0-pro-exp-02-05",
+      "display_name": "Google Gemini 2.0 Pro",
+      "display_version": "Experimental 02-05",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "",
+      "reference": "gemini-2.0-pro-exp-02-05",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Continue Supported",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 1999000,
+        "max_completion_tokens": 8192
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-lite-preview-02-05",
+      "model": "gemini-2.0-flash-lite-preview-02-05",
+      "display_name": "Google Gemini 2.0 Flash",
+      "display_version": "Lite Preview 02-05",
+      "icon_url": "https://chat.lab.epam.com/themes/Gemini-Pro-Vision.svg",
+      "description": "",
+      "reference": "gemini-2.0-flash-lite-preview-02-05",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "input_attachment_types": [
+        "*/*"
+      ],
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Image Recognition",
+        "Continue Supported",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_total_tokens": 999000,
+        "max_completion_tokens": 8000
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
+      }
+    },
+    {
+      "id": "imagegeneration@005",
+      "model": "imagegeneration@005",
+      "display_name": "Google Imagen",
+      "icon_url": "https://chat.lab.epam.com/themes/Imagen.svg",
+      "description": "Google Imagen 005 is a text-to-image diffusion technology developed by Google. It is capable of delivering photorealistic outputs that are aligned and consistent with the users prompt.\n\nImagen can generate more lifelike images by using the natural distribution of its training data, instead of adopting a pre-programmed style. It is integrated with SynthID, a toolkit for watermarking and identifying AI-generated content. Imagen also has image editing capabilities like 'inpainting' and 'outpainting', which allow users to generate new content directly into the original image or extend the original image beyond its borders. This technology is available in Google Cloud’s Vertex AI, Gemini, Search Generative Experience, and a Google Labs experiment called ImageFX",
+      "reference": "imagegeneration@005",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Image Generation",
+        "GCP"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0",
+        "completion": "0.02"
+      }
+    },
+    {
+      "id": "textembedding-gecko@001",
+      "model": "textembedding-gecko@001",
+      "reference": "textembedding-gecko@001",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": false,
+        "embeddings": true,
+        "fine_tune": false,
+        "inference": false
+      },
+      "limits": {
+        "max_prompt_tokens": 3072
+      },
+      "pricing": {
+        "unit": "char_without_whitespace",
+        "prompt": "0.0000001"
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "model": "deepseek-r1",
+      "display_name": "DeepSeek R1",
+      "display_version": "Latest",
+      "description": "DeepSeek R1 is an advanced AI reasoning model developed by the Chinese company DeepSeek, which has gained global attention for its performance and open-source approach. Released on January 20, 2025, it is the first publicly available model to rival OpenAI's o1 in reasoning tasks. **Usage Recommendations:** 1) Set the temperature within the range of 0.5-0.7. 2) Avoid adding a system prompt; all instructions should be contained within the user prompt.",
+      "reference": "deepseek-r1",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": true,
+        "addons": true
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Azure",
+        "Reasoning"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "o1-mini-2024-09-12",
+      "model": "o1-mini-2024-09-12",
+      "display_name": "OpenAI o1-mini",
+      "display_version": "2024-09-12",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "OpenAI o1-mini is a smaller and faster version of the OpenAI o1 reasoning model. O-serries models spend more time processing and understanding the user's request, making them exceptionally strong in areas like science, coding, and math compared to previous iterations.",
+      "reference": "o1-mini-2024-09-12",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": false,
+        "addons": false
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Reasoning",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000033",
+        "completion": "0.0000132"
+      }
+    },
+    {
+      "id": "o1-preview-2024-09-12",
+      "model": "o1-preview-2024-09-12",
+      "display_name": "OpenAI o1-preview (Legacy)",
+      "display_version": "2024-09-12",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "<span style=\"color:#F76464;\">Preview.</span> Previous version of OpenAI o1 model, please use latest release version.",
+      "reference": "o1-preview-2024-09-12",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": false,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": false,
+        "addons": false
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Reasoning",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 128000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000165",
+        "completion": "0.000066"
+      }
+    },
+    {
+      "id": "o3-mini-2025-01-31",
+      "model": "o3-mini-2025-01-31",
+      "display_name": "OpenAI o3-mini",
+      "display_version": "2025-01-31",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "The OpenAI o3-mini model, launched on January 31, 2025, is a state-of-the-art language model designed to enhance reasoning tasks, particularly in STEM fields. It offers significant improvements in speed, cost efficiency, and safety over its predecessors. The o3-mini processes responses faster and is 63% cheaper to run than the o1-mini model, making it a cost-effective solution for developers and AI enthusiasts. While it excels in complex reasoning tasks, it does not support vision-related capabilities, focusing instead on delivering precise and efficient performance in technical applications.",
+      "reference": "o3-mini-2025-01-31",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": false,
+        "addons": false
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Structured Output",
+        "Functions",
+        "Azure",
+        "Reasoning",
+        "Development"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_prompt_tokens": 200000,
+        "max_completion_tokens": 100000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.0000011",
+        "completion": "0.0000044"
+      }
+    },
+    {
+      "id": "o1-2024-12-17",
+      "model": "o1-2024-12-17",
+      "display_name": "OpenAI o1",
+      "display_version": "2024-12-17",
+      "icon_url": "https://chat.lab.epam.com/themes/gpt3.svg",
+      "description": "OpenAI o1 model is specifically designed to tackle reasoning and problem-solving tasks with increased focus and capability. Model spends more time processing and understanding the user's request, making them exceptionally strong in areas like science, coding, and math compared to previous iterations.",
+      "reference": "o1-2024-12-17",
+      "owner": "organization-owner",
+      "object": "model",
+      "status": "succeeded",
+      "created_at": 1672534800,
+      "updated_at": 1672534800,
+      "features": {
+        "rate": false,
+        "tokenize": false,
+        "truncate_prompt": false,
+        "configuration": false,
+        "system_prompt": true,
+        "tools": false,
+        "seed": false,
+        "url_attachments": false,
+        "folder_attachments": false,
+        "allow_resume": true,
+        "accessible_by_per_request_key": true,
+        "content_parts": false,
+        "temperature": false,
+        "addons": false
+      },
+      "defaults": {},
+      "description_keywords": [
+        "Text Generation",
+        "Structured Output",
+        "Functions",
+        "Reasoning",
+        "Azure"
+      ],
+      "max_retry_attempts": 5,
+      "lifecycle_status": "generally-available",
+      "capabilities": {
+        "scale_types": [
+          "standard"
+        ],
+        "completion": false,
+        "chat_completion": true,
+        "embeddings": false,
+        "fine_tune": false,
+        "inference": false
+      },
+      "tokenizer_model": "gpt-4-0314",
+      "limits": {
+        "max_total_tokens": 200000,
+        "max_completion_tokens": 100000
+      },
+      "pricing": {
+        "unit": "token",
+        "prompt": "0.000015",
+        "completion": "0.00006"
+      }
+    }
+  ],
+  "object": "list"
+}
