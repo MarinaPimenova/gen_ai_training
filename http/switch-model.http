@@ -1,0 +1,60 @@
+### gpt-4-turbo  gtp-4  "Mixtral-8x7B-Instruct-v0.1",
+POST http://localhost:9092/v1/chat/model/messages
+Content-Type: application/json
+
+{
+  "model": "gpt-4-turbo",
+  "messages": [
+    {
+      "model": "rlab-llama-large-Instruct",
+      "role": "user",
+      "text": "List famous artists who painted flowers in a vase",
+      "systemMessage": "You are a casual, helpful assistant.",
+      "configPayload": {
+        "schema": 1,
+        "description": "general",
+        "name": "Painter's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.5
+        }
+      }
+    },
+    {
+      "model": "dall-e-3",
+      "role": "user",
+      "text": "flowers in a vase",
+      "systemMessage": "You are a graphical assistant.",
+      "configPayload": {
+        "schema": 1,
+        "description": "general",
+        "name": "Painter's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.5
+        }
+      }
+    },
+    {
+      "model": "gpt-4-turbo",
+      "role": "user",
+      "text": "Please provide a short and simple description of [KernelFunction] and a short and simple example of their usage in Semantic Kernel library",
+      "systemMessage": "You are a smart developer. Provide examples in Java code.",
+      "configPayload": {
+        "schema": 2,
+        "description": "general",
+        "name": "User's config",
+        "type": "completion",
+        "completion": {
+          "max_tokens": 500,
+          "temperature": 0.9
+        }
+      }
+    }
+  ]
+}
+
+###
+###
