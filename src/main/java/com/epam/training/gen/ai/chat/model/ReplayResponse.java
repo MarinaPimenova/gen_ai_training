@@ -25,4 +25,6 @@ public class ReplayResponse implements Serializable {
     private String content;
 
     private String contentType;
+
+    private String modelId;
 }

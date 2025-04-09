@@ -20,6 +20,7 @@ public class MessagePayload implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
+    private String model;
     private String role;
     private String text;
     private String systemMessage;
