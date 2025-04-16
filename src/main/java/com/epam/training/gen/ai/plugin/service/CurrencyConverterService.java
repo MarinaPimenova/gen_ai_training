@@ -5,6 +5,7 @@ import com.epam.training.gen.ai.plugin.model.CurrencyList;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -21,8 +22,8 @@ public class CurrencyConverterService {
         EXCHANGE_RATES.put("Swedish Krona", 11.10);
     }
 
-    public CurrencyList getCurrenciesList() {
-        return CurrencyList.builder().build();
+    public List<String> getCurrenciesList() {
+        return CurrencyList.getCurrenciesList();
     }
 
     public ConvertingResult convertCurrency(

@@ -1,7 +1,7 @@
 package com.epam.training.gen.ai.plugin;
 
 import com.epam.training.gen.ai.plugin.model.ConvertingResult;
-import com.epam.training.gen.ai.plugin.model.CurrencyList;
+
 import com.epam.training.gen.ai.plugin.service.CurrencyConverterService;
 import com.microsoft.semantickernel.semanticfunctions.annotations.DefineKernelFunction;
 import com.microsoft.semantickernel.semanticfunctions.annotations.KernelFunctionParameter;
@@ -9,13 +9,15 @@ import lombok.RequiredArgsConstructor;
 
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class CurrencyConverterPlugin {
     private final CurrencyConverterService currencyConverterService;
 
-    @DefineKernelFunction(name = "get_currency_list", description = "Get currencies list", returnType = "com.epam.training.gen.ai.plugin.model.CurrencyList")
-    public CurrencyList getCurrenciesList() {
+    @DefineKernelFunction(name = "get_currency_list", description = "Get currencies list", returnType = "java.util.List")
+    public List<String> getCurrenciesList() {
         return currencyConverterService.getCurrenciesList();
     }
 

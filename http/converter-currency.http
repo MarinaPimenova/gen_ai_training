@@ -5,3 +5,25 @@ Content-Type: application/json
 {
   "message": "Convert from Euro to USD."
 }
+###
+### gpt-4-turbo  gtp-4o
+POST http://localhost:9092/v1/currency/chat/messages
+Content-Type: application/json
+
+{
+  "message": "Convert 10 ASD to USD."
+}
+###
+POST http://localhost:9092/v1/currency/chat/messages
+Content-Type: application/json
+
+{
+  "message": "Convert 10 EUR to USD."
+}
+###
+POST http://localhost:9092/v1/currency/chat/messages
+Content-Type: application/json
+
+{
+  "message": "Please provide currency list"
+}
