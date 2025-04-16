@@ -1,5 +1,47 @@
 # Semantic Kernel Plugins
 
+## Case - 
+```json
+POST http://localhost:9092/v1/currency/chat/messages
+Content-Type: application/json
+
+{
+  "message": "I have 1 EUR. How much it would be in Swedish Krona?"
+}
+###
+```
+response is according to exchange rate in the com.epam.training.gen.ai.plugin.service.CurrencyConverterService
+```json
+[
+  {
+    "authorRole": "assistant",
+    "content": "1 EUR is equivalent to 11.10 Swedish Krona (SEK).",
+    "contentType": "text",
+    "modelId": ""
+  }
+]
+```
+
+## Case - I have 10 USD. How much it would be in Japanese Yen?
+```json
+POST http://localhost:9092/v1/currency/chat/messages
+Content-Type: application/json
+
+{
+  "message": "I have 10 USD. How much it would be in Japanese Yen?"
+}
+```
+response
+```json
+[
+  {
+    "authorRole": "assistant",
+    "content": "10 USD is approximately 1430 JPY.",
+    "contentType": "text",
+    "modelId": ""
+  }
+]
+```
 ## Case#1 - The currency is correctly provided in the request
 ```json
 POST http://localhost:9092/v1/currency/chat/messages

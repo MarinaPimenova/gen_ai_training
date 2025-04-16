@@ -16,10 +16,10 @@ public class CurrencyConverterService {
         // Dummy exchange rates (1 USD to others)
         EXCHANGE_RATES.put("USD", 1.14);
         EXCHANGE_RATES.put("EUR", 1.0);
-        EXCHANGE_RATES.put("Belarusian Ruble", 3.71);
-        EXCHANGE_RATES.put("Japanese Yen", 163.02);
-        EXCHANGE_RATES.put("Swiss Franc", 0.93);
-        EXCHANGE_RATES.put("Swedish Krona", 11.10);
+        EXCHANGE_RATES.put("BYN", 3.71); // Belarusian Ruble
+        EXCHANGE_RATES.put("JPY", 163.02); // Japanese Yen
+        EXCHANGE_RATES.put("CHF", 0.93); //Swiss Franc
+        EXCHANGE_RATES.put("SEK", 11.10);
     }
 
     public List<String> getCurrenciesList() {

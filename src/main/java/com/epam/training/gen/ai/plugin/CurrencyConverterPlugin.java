@@ -23,7 +23,7 @@ public class CurrencyConverterPlugin {
 
     @DefineKernelFunction(
             name = "convert_currency",
-            description = "Convert currency",
+            description = "Convert currency. Calculate How much it would be in the given currency, if I have some amount in the other currency.",
             returnDescription = "Returns exchange rate",
             returnType = "com.epam.training.gen.ai.plugin.model.ConvertingResult")
     public ConvertingResult convertCurrency(
