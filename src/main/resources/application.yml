@@ -31,4 +31,6 @@ client:
   chat-completion-endpoint: {COMPLETIONS}
   openai-deployment-name: { OPEN_AI_DEPLOYMENT_NAME }
 
+chat:
+  model: "gpt-4-turbo"
 

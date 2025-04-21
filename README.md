@@ -63,3 +63,26 @@ Successfully retrieved deployment names using the provided API. <br/>
   ]
 ]
 ``` 
+## Task#4 - Semantic Kernel Plugins
+- Implement code that uses different types of SK plugins
+
+### Call function from custom plugin:
+- Use [this](https://devblogs.microsoft.com/semantic-kernel/using-semantic-kernel-to-create-a-time-plugin-with-java/) is an example or you can follow [Microsoft documentation](https://learn.microsoft.com/en-us/semantic-kernel/concepts/plugins/?pivots=programming-language-java)
+- See the **SimplePlugin.java** usage in the **examples** folder of the course project
+
+### Implement custom plugin
+Your task is to create series of custom plugins the existing system.
+This function should be called by a model based on user request, it can return some data <br/>
+or make actions inside the application.
+As ideas for plugins you can use:
+Age calculator, Weather forecast, Currency converter, <br/>
+Turn of the lamp (just change the flag of some boolean variable),
+and so on, <br/>
+in general, any plugin that can do some calculations or provide some information outside model knowledge.
+
+Note: no need to implement the real 3-rd party service integration, the response could be simply mocked.
+### Evaluation Criteria
+2. Implementation and Integration several custom plugins
+- Correctly implemented new function within the existing system 
+- System is capable of calling correct plugin based on user input 
+- System correctly generates and displays result using function based on user input 
