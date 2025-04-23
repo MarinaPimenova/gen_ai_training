@@ -1,0 +1,51 @@
+###
+GET http://localhost:9092/version
+
+### Build Embedding from Text
+POST http://localhost:9092/v1/embedding/build
+Content-Type: application/json
+
+{
+  "text": "The quick brown fox jumps over the lazy dog"
+}
+
+### Build and Store Embedding from Text
+POST http://localhost:9092/v1/embedding/store
+Content-Type: application/json
+
+{
+  "text": "Java is a high-level, class-based, object-oriented programming language"
+}
+
+###
+POST http://localhost:9092/v1/embedding/store
+Content-Type: application/json
+
+{
+  "text": "something else"
+}
+
+###
+POST http://localhost:9092/v1/embedding/store
+Content-Type: application/json
+
+{
+  "text": "not defined"
+}
+
+###
+### Search for Closest Embeddings
+POST http://localhost:9092/v1/embedding/search?limit=1
+Content-Type: application/json
+
+{
+  "text": "else"
+}
+### Search for Closest Embeddings
+POST http://localhost:9092/v1/embedding/search?limit=5
+Content-Type: application/json
+
+{
+  "text": "Java is a high-level, class-based, object-oriented programming language"
+}
+###

@@ -20,17 +20,35 @@ logging:
     com.epam.training.gen.ai: debug
     org.springframework: info
     org:
+      hibernate: info
       springframework:
         web:
           servlet:
             DispatcherServlet: DEBUG
 
 client:
-  openai-key: { DIAL_KEY }
-  openai-endpoint: { OPEN_AI_ENDPOINT }
-  chat-completion-endpoint: {COMPLETIONS}
-  openai-deployment-name: { OPEN_AI_DEPLOYMENT_NAME }
+  openai-key: ${DIAL_KEY:1}
+  openai-endpoint: ${OPEN_AI_ENDPOINT:https://ai-proxy.lab.epam.com}
+  chat-completion-endpoint: /openai/deployments/dall-e-3/chat/completions?api-version=2023-12-01-preview
+  openai-deployment-name: ${OPEN_AI_DEPLOYMENT_NAME:dall-e-3}
 
 chat:
   model: "gpt-4-turbo"
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/embeddings_db" #?stringtype=unspecified # 5433
+    username: ${POSTGRES_USER:admin}
+    password: ${POSTGRES_PASSWORD}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        hbm2ddl:
+          auto: none
+    hibernate:
+      ddl-auto: none
+    show-sql: true
 

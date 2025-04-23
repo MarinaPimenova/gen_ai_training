@@ -5,9 +5,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.8</version>
-        <relativePath/>
+        <version>3.3.10</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.epam.training.gen.ai</groupId>
     <artifactId>gen_ai_training</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -20,23 +21,24 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
@@ -80,34 +82,15 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
-
-        <!--
-
-                <dependency>
-                    <groupId>io.qdrant</groupId>
-                    <artifactId>client</artifactId>
-                    <version>1.11.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>io.grpc</groupId>
-                    <artifactId>grpc-netty-shaded</artifactId>
-                    <version>1.68.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>io.grpc</groupId>
-                    <artifactId>grpc-protobuf</artifactId>
-                    <version>1.68.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>io.grpc</groupId>
-                    <artifactId>grpc-stub</artifactId>
-                    <version>1.68.0</version>
-                </dependency>
-        -->
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
